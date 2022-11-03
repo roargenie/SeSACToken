@@ -18,6 +18,11 @@ final class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        let phone = Phone()
+        print(phone.numbers[2])
+        print(phone[2])
+        
+        
         viewModel.profile // <Single>에 대한 내용 살펴보기
             .withUnretained(self)
             .subscribe { (vc, value) in
@@ -50,6 +55,8 @@ final class ViewController: UIViewController {
         var array = Array(repeating: "A", count: 100)
         // Array, Dictionary, Set == Collection은 Copy On Write특성을 지님.
         address(&array)
+        print(array[safe: 99])
+        print(array[safe: 200])
         
         var newArray = array // 실제로 복사 안함. 원본을 공유하고 있음.
         address(&newArray)

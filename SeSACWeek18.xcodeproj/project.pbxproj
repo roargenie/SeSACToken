@@ -20,6 +20,7 @@
 		F6516686291352FE00E362F0 /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6516685291352FE00E362F0 /* ProfileViewModel.swift */; };
 		F6516689291353E600E362F0 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = F6516688291353E600E362F0 /* RxCocoa */; };
 		F651668B291353E600E362F0 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = F651668A291353E600E362F0 /* RxSwift */; };
+		F651668D2913628900E362F0 /* SubscriptExample.swift in Sources */ = {isa = PBXBuildFile; fileRef = F651668C2913628900E362F0 /* SubscriptExample.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		F651663129121BEA00E362F0 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		F6516683291351D400E362F0 /* Network.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Network.swift; sourceTree = "<group>"; };
 		F6516685291352FE00E362F0 /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		F651668C2913628900E362F0 /* SubscriptExample.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubscriptExample.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +77,7 @@
 				F651661929120A2500E362F0 /* SceneDelegate.swift */,
 				F651661B29120A2500E362F0 /* ViewController.swift */,
 				F6516685291352FE00E362F0 /* ProfileViewModel.swift */,
+				F651668C2913628900E362F0 /* SubscriptExample.swift */,
 				F651661D29120A2500E362F0 /* Main.storyboard */,
 				F651662029120A2600E362F0 /* Assets.xcassets */,
 				F651662229120A2600E362F0 /* LaunchScreen.storyboard */,
@@ -177,6 +180,7 @@
 				F651661829120A2500E362F0 /* AppDelegate.swift in Sources */,
 				F6516684291351D400E362F0 /* Network.swift in Sources */,
 				F651663029120EFB00E362F0 /* APIService.swift in Sources */,
+				F651668D2913628900E362F0 /* SubscriptExample.swift in Sources */,
 				F651661A29120A2500E362F0 /* SceneDelegate.swift in Sources */,
 				F651663229121BEA00E362F0 /* Endpoint.swift in Sources */,
 				F6516686291352FE00E362F0 /* ProfileViewModel.swift in Sources */,
